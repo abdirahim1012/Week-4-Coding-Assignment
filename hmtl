@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            font-size: x-large;
+        }
+
+        form {
+          font-size: x-large;
+          scroll-padding-top: 5px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    
+<h1>  Cryptocurrency</h1>
+
+<table border="5">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Cryptocurrency</th>
+      <th scope="col">Created</th>
+      <th scope="col">price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Bitcoin</td>
+      <td>January 2009</td>
+      <td>$51,094</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Ethereum</td>
+      <td>July 30, 2015</td>
+      <td>$4,086</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td> Biance Coin</td>
+      <td>July 2017</td>
+      <td>$549.45</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+
+<body>
+
+<form id="form">
+  <div class="col">
+    <input type="text"  id="new-text" placeholder="Name">
+  </div>
+</form>
+  <button id="add"> Add New Cryptocurrency</button>
+  
+  <script src="index4.js"></script>
+</body>
+</html>
